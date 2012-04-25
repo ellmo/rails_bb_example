@@ -1,3 +1,7 @@
 class @Rbbe.Initializer
   constructor: ->
-    alert "Oh, my god, yes!\nOh, my god!"
+    @router = new Rbbe.Routers.Main()
+    @controller = $('body').data('controller')
+    @action = $('body').data('action')
+    @router[@controller](@action)
+        
