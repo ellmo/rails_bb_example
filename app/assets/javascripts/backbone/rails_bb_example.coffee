@@ -4,8 +4,11 @@
 #= require_tree ./views
 #= require_tree ./routers
 
-@RailsBbExample =
+@Rbbe =
   Models: {}
   Collections: {}
   Routers: {}
   Views: {}
+
+$ ->
+  init = new Rbbe.Initializer()
