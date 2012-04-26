@@ -8,7 +8,8 @@
   Models: {}
   Collections: {}
   Routers: {}
-  Views: {}
+  Views:
+    Home: {}
 
 $ ->
   init = new Rbbe.Initializer()

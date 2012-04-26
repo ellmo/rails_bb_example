@@ -6,4 +6,5 @@
     = javascript_include_tag "application"
     = csrf_meta_tags
   %body{:data => { :controller => controller_name, :action => action_name }}
-    = yield
+    #topmost
+      = yield
